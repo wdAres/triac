@@ -1,0 +1,76 @@
+.news-section-inner {
+    height: auto;
+    margin-left: 0%;
+   width: 100%;
+    border-radius: 0;
+}
+
+.newsContentOuter {
+    padding: 5px;
+}
+
+
+@media screen and (max-width:770px){
+    #index-sec-8 {
+        height: max-content;
+    }
+
+    .service-cards {
+        height: 220px;
+        max-width: inherit;
+    }
+
+    .odd-card{
+        position: unset;
+        top: 0;
+    }
+
+    #index-sec-3 {
+        height: max-content;
+    }
+
+    .special-service-box {
+        left: 0px;
+        bottom: 92px;
+    }
+    
+
+
+}
+
+.all-page-heading{
+    font-size:2.4em 
+}
+.navbar {
+    background: #fbfbfb;
+    z-index: 9999999999999999999999999999;
+}
+.nav-link {
+color: black !important;
+font-weight: 600;
+}
+
+#left-sided-div .slick-next {
+    left: -69px !important;
+}
+#blogs-sec-2 .slick-next {
+    right: -50px !important;
+}
+
+
+section.product-page .nav.nav-pills {
+    width: 100%;
+    position: relative;
+    height: 300px;
+    flex-wrap: nowrap;
+    overflow-y: scroll;
+}
+
+section.product-page .tab-content {
+    width: 100%;
+}
+
+#quality-sec-1 p{
+    text-align: center !important;
+    width: 100% !important;
+}
