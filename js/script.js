@@ -21,20 +21,23 @@ $('.right-side-slider').slick({
 
 $('#brand-slider').slick({
     infinite: false,
-    slidesToShow: 2.5,
+    slidesToShow: 3,
     slidesToScroll: 1,
-    arrows:false,
+    arrows:true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  infinite: true,
     responsive: [
       {
         breakpoint: 1200,
         settings: {
-          slidesToShow: 2
+          slidesToShow: 2.5
         }
       },
       {
         breakpoint: 1000,
         settings: {
-          slidesToShow: 1.5
+          slidesToShow: 1
         }
       }
       ,
@@ -70,18 +73,6 @@ $('#certificate-slider').slick({
       }
     ]
   });
-
-
-  
-
-      
-
-//   $(function () {
-//     $(document).scroll(function () {
-//       var $nav = $("#sticky-nav");
-//       $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-//     });
-//   });
 
 
 filterSelection("btn-1-content")
@@ -122,20 +113,20 @@ function w3RemoveClass(element, name) {
 } 
 
 
-$('#home-slider').slick({
-  infinite: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows : false
-});
+// $('#home-slider').slick({
+//   infinite: true,
+//   slidesToShow: 1,
+//   slidesToScroll: 1,
+//   arrows : false
+// });
 
 function ShowWwa() {  
   $("#wwa-content").toggle();
   $("#more-wwa").toggle();
-  $(".overlay-long-box").css("height" , "506px" );
+  $(".new-lb").css("height" , "570px" );
 }
 function HideWwa() {  
   $("#wwa-content").toggle();
   $("#more-wwa").toggle();
-  $(".overlay-long-box").css("height" , "350px" );
+  $(".new-lb").css("height" , "360px" );
 }

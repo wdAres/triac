@@ -1,13 +1,13 @@
 <?php include 'nav.php' ?>
 
 
-<section id="index-sec-1" class="header-w-banner d-flex justify-content-center align-items-center text-light">
-    <div id="home-slider">
+<section id="index-sec-1" class="header-w-banner d-flex  align-items-end text-light">
+    <!-- <div id="home-slider">
         <div class=""><img src="bg/home-bg-main.jpg" alt=""></div>
         <div class=""><img src="bg/hs-2.jpg" alt=""></div>
         <div class=""><img src="bg/hs-3.jpg" alt=""></div>
-    </div>
-    <div class="overlay-container position-absolute">
+    </div> -->
+    <!-- <div class="overlay-container position-absolute">
         <div class="overlay-box">
 
         </div>
@@ -17,20 +17,28 @@
             food on the table.
             <div class="mt-3">-Steve Jobs</div>
         </div>
+    </div> -->
+    <div class="left-sided-text position-relative">
+        <div style="" class="fs-2 mb-5 pb-5 px-4 left-sided-text-div">
+            FULFILLING THE DEMAND
+            <div class="fs-5 fw-semibold mt-3 text-light">Global independent distributor of electronic
+                and industrial automation parts.
+            </div>
+        </div>
     </div>
 
 </section>
 
 <section id="index-sec-2" class="what-we-are d-flex justify-content-center align-items-center text-light">
-    <div class="overlay-container">
-        <div class="overlay-box overlay-long-box">
+    <div class="overlay-container new">
+        <div class="overlay-box overlay-long-box new-lb">
 
         </div>
-        <div class="overlay-left-details ">
-            <div class="fs-3 fw-semibold mb-3">What We Are</div>
+        <div class="overlay-left-details-new">
+            <div class="fs-3 fw-semibold mb-3">Who We Are</div>
             <div>
-                Triac Electronics is the global independent distributor of electronic and industrial automation parts. We are team of engineers and management people, who have exceptional experience and expertise in global sourcing through strategic channel partners,franchise distributors and oem. <a href="#!"  onclick="ShowWwa()" id="more-wwa">...More</a> <span id="wwa-content">
-                we have developed an impeccable reputation for our commitment to quality,fastest delivery,and reliability.We believe in long term business relationship, and dedicated to create friendly and professional environment. <a href="#!" onclick="HideWwa()" id="less-wwa">...Less</a>
+                Triac Electronics is the global independent distributor of electronic and industrial automation parts. We are team of engineers and management people, who have exceptional experience and expertise in global sourcing through strategic channel partners,franchise distributors and oem. <a href="#!" onclick="ShowWwa()" id="more-wwa">...More</a> <span id="wwa-content">
+                    we have developed an impeccable reputation for our commitment to quality,fastest delivery,and reliability.We believe in long term business relationship, and dedicated to create friendly and professional environment. <a href="#!" onclick="HideWwa()" id="less-wwa">...Less</a>
                 </span>
             </div>
         </div>
@@ -38,36 +46,43 @@
 </section>
 
 <section id="index-sec-3" class="pt-4">
-    <div class="container d-flex justify-content-center py-5 h-100">
+    <!-- odd-card -->
+    <div class="container d-flex justify-content-center py-5 h-100 align-items-center">
         <div class="row mx-0 px-0 w-100">
             <div class="col-12 col-md-3 px-0 mx-0">
                 <div id="service-c-1" class="service-cards position-relative">
                     <div class="service-overlay-div-min special-service-box  text-light position-absolute p-2">
                         <h2>Services <img src="images/line2.png" style="width: 30%;" /></h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <p>Electronic Component Sourcing , Supply Chain Solution and Excess Inventory management</p>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-3 position-relative px-0 mx-0">
-                <div id="service-c-2" class="service-cards odd-card position-relative p-2">
-                    <div class="service-overlay-div-min text-light position-absolute">
-                        <h2 class="service-h2">Electronic components</h2>
+                <a href="ecs.php">
+                    <div id="service-c-2" class="service-cards  position-relative p-2">
+                        <div class="service-overlay-div-min text-light position-absolute">
+                            <h2 class="service-h2">Electronic components</h2>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-12 col-md-3 px-0 mx-0">
-                <div id="service-c-3" class="service-cards position-relative p-2">
-                    <div class="service-overlay-div-min text-light position-absolute">
-                        <h2 class="service-h2">Electromechanical component</h2>
+                <a href="scs.php">
+                    <div id="service-c-3" class="service-cards position-relative p-2">
+                        <div class="service-overlay-div-min text-light position-absolute">
+                            <h2 class="service-h2">Electromechanical component</h2>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-12 col-md-3 position-relative px-0 mx-0">
-                <div id="service-c-4" class="service-cards odd-card position-relative p-2">
-                    <div class="service-overlay-div-min text-light position-absolute">
-                        <h2 class="service-h2">Industrial Parts</h2>
+                <a href="product.php">
+                    <div id="service-c-4" class="service-cards  position-relative p-2">
+                        <div class="service-overlay-div-min text-light position-absolute">
+                            <h2 class="service-h2">Industrial Parts</h2>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
@@ -115,11 +130,11 @@
         <div class="col-md-12">
             <div class="product">
                 <div class="product-img">
-                    <img src="product-img/chipset.jpg" />
+                    <img src="main-products/Automotive Connector Plug - Copy.jpg" />
                 </div>
                 <div class="product-details">
 
-                    <h3>Chip Set</h3>
+                    <h3>Automotive Connector Plug</h3>
                     <button type="button" class="btn  mt-2 mx-auto pd--btn d-block" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Contact Us
                     </button>
@@ -127,15 +142,14 @@
 
             </div>
         </div>
-
         <div class="col-md-12">
             <div class="product">
                 <div class="product-img">
-                    <img src="product-img/igbt-module.jpg" />
+                    <img src="main-products/Barrier Terminal Blocks - Copy.jpg" />
                 </div>
                 <div class="product-details">
 
-                    <h3>IGBT module</h3>
+                    <h3>Barrier Terminal Blocks</h3>
                     <button type="button" class="btn  mt-2 mx-auto pd--btn d-block" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Contact Us
                     </button>
@@ -143,16 +157,14 @@
 
             </div>
         </div>
-
         <div class="col-md-12">
             <div class="product">
                 <div class="product-img">
-                    <img src="images/product1.png" />
+                    <img src="main-products/CPLD.webp" />
                 </div>
                 <div class="product-details">
 
-                    <h3>Passive
-                        components</h3>
+                    <h3>CLPD</h3>
                     <button type="button" class="btn  mt-2 mx-auto pd--btn d-block" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Contact Us
                     </button>
@@ -160,15 +172,14 @@
 
             </div>
         </div>
-
         <div class="col-md-12">
             <div class="product">
                 <div class="product-img">
-                    <img src="product-img/memory-ic.jpg" />
+                    <img src="main-products/SMD Crystals.jpg" />
                 </div>
                 <div class="product-details">
 
-                    <h3>Memory ICs</h3>
+                    <h3>SMD Crystals</h3>
                     <button type="button" class="btn  mt-2 mx-auto pd--btn d-block" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Contact Us
                     </button>
@@ -176,15 +187,14 @@
 
             </div>
         </div>
-
         <div class="col-md-12">
             <div class="product">
                 <div class="product-img">
-                    <img src="images/product1.png" />
+                    <img src="main-products/Amplifier IC (1).webp" />
                 </div>
                 <div class="product-details">
 
-                    <h3>Capacitor</h3>
+                    <h3>Amplifier</h3>
                     <button type="button" class="btn  mt-2 mx-auto pd--btn d-block" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Contact Us
                     </button>
@@ -200,7 +210,9 @@
         <div class="row h-100">
             <div class="col-md-4 col-sm-4 h-100">
                 <div class="newsContentOuter">
-                    <a href="blogs.php" class="text-dark"><h1>News</h1></a>
+                    <a href="blogs.php" class="text-dark">
+                        <h1>News</h1>
+                    </a>
                 </div>
             </div>
             <div class="col-md-4 col-sm-4">
@@ -271,11 +283,11 @@
                     </p>
                 </div>
             </div> -->
-            <div class="col-md-9 px-3 mx-auto">
+            <div class="col-md-12 px-3 mx-auto">
                 <div id="brand-slider">
 
                     <div class="">
-                        <div class="card shadow" style="width: 20rem;">
+                        <div class="card shadow" style="width: 21rem;">
                             <!-- <img src="images/officeman.webp" class="card-img-top" alt="..."> -->
                             <div class="card-body p-4 position-relative">
                                 <!-- <div class="position-absolute quote-container"><img src="brand-logo/quote-logo.png" alt=""></div> -->
@@ -291,7 +303,7 @@
                         </div>
                     </div>
                     <div class="">
-                        <div class="card shadow" style="width: 20rem;">
+                        <div class="card shadow" style="width: 21rem;">
                             <!-- <img src="images/officeman.webp" class="card-img-top" alt="..."> -->
                             <div class="card-body p-4 position-relative">
                                 <!-- <div class="position-absolute quote-container"><img src="brand-logo/quote-logo.png" alt=""></div> -->
@@ -311,7 +323,7 @@
                         </div>
                     </div>
                     <div class="">
-                        <div class="card shadow" style="width: 20rem;">
+                        <div class="card shadow" style="width: 21rem;">
                             <!-- <img src="images/officeman.webp" class="card-img-top" alt="..."> -->
                             <div class="card-body p-4 position-relative">
                                 <!-- <div class="position-absolute quote-container"><img src="brand-logo/quote-logo.png" alt=""></div> -->
@@ -329,13 +341,13 @@
                         </div>
                     </div>
                     <div class="">
-                        <div class="card shadow" style="width: 20rem;">
+                        <div class="card shadow" style="width: 21rem;">
                             <!-- <img src="images/officeman.webp" class="card-img-top" alt="..."> -->
                             <div class="card-body p-4 position-relative">
                                 <!-- <div class="position-absolute quote-container"><img src="brand-logo/quote-logo.png" alt=""></div> -->
 
                                 <p class="card-text">
-                                We are working with TRIAC for one year and we find that they are reliable independent distributor of electronic components. That’s why we consider them before placing order to other electronic components suppliers. If there is any problem in stock and price, They tell us real things.
+                                    We are working with TRIAC for one year and we find that they are reliable independent distributor of electronic components. That’s why we consider them before placing order to other electronic components suppliers. If there is any problem in stock and price, They tell us real things.
                                 </p>
                                 <div class="card-foot">
                                     <h5 class="card-title mb-0 fs-6">Mr. Khan</h5>
@@ -389,7 +401,7 @@
 <!-- Modal -->
 
 
-<?php include 'foot.php' ?>
+<?php include 'foot2.php' ?>
 
 
 </body>

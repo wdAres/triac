@@ -439,7 +439,7 @@ section.product-page .nav-pills .nav-link.active::after {
 
 .nav-link {
     color: white !important;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .nav-link:hover {
@@ -449,11 +449,12 @@ section.product-page .nav-pills .nav-link.active::after {
 .navbar-brand {
     font-size: 25px;
     font-weight: 900;
-    color: #ff6464;
+    color: rgb(255,0,0);
+    /* color: #ff6464; */
 }
 
 .navbar-brand:hover {
-    color: #f37f7f;
+    color: #c00505;
 }
 
 .navbar {
@@ -815,7 +816,13 @@ li.quality-list-items {
 
 #index-sec-1 {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../bg/home-1.jpg) no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../bg/hs-3.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#index-sec-1.pd-bg {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../bg/our\ product\ image.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -1075,8 +1082,10 @@ b.theme-color {
 
 
 .service-cards {
-    height: 443px;
-    max-width: 248px;
+    height: 256px;
+    /* height: 443px; */
+    /* max-width: 248px; */
+    width: 100%;
 }
 
 
@@ -1102,17 +1111,17 @@ b.theme-color {
 }
 
 #service-c-2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../bg/electro.jpg) no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../bg/electronic\ component\ sourcing.webp) no-repeat center;
     background-size: cover
 }
 
 #service-c-3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../bg/electromech.jpg) no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../bg/Supply-chain\ pic.jpg) no-repeat center;
     background-size: cover
 }
 
 #service-c-4 {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../images/service2.png) no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../bg/services-excess\ inventory\ management\ short\ image.png) no-repeat center;
     background-size: cover
 }
 
@@ -1369,4 +1378,109 @@ b.theme-color {
 
 .all-page-heading{
     font-size:3.4em 
+}
+
+.wb-ul{
+    word-break:break-word ;
+    padding-right: 10px;
+}
+
+.contact-btn-foot{transition: 0.2s ease; width: 169px; border: 2px solid white; border-radius: 0px; color: white ;}
+.contact-btn-foot:hover{border: 2px solid rgb(255,0,0); color: rgb(255,0,0);}
+.social-i{transition: 0.2s ease; color: white ;}
+.social-i:hover{ color: rgb(255,0,0);}
+
+.new{
+    width: 360px;
+}
+.new-lb{
+    width: 360px;
+    height: 360px;
+}
+.overlay-left-details-new{
+    position: absolute;
+    top: 8px;
+    font-size: 19px;
+    z-index: 999999999;
+    right: 0px;
+    width: 360px;
+    padding: 0 20px;
+}
+
+
+.navbar {
+    background: #fbfbfb;
+    z-index: 9999999999999999999999999999;
+}
+.nav-link {
+color: black !important;
+font-weight: 800;
+}
+
+#index-sec-8 .slick-next {
+    right: 53px;
+        z-index: 99;
+        background: white !important;
+            opacity: 1.75;
+}
+#index-sec-8 .slick-prev {
+    left: 25px;
+        z-index: 99;
+        background: white !important;
+            opacity: 1.75;
+}
+
+#index-sec-8 .slick-next::before ,
+#index-sec-8 .slick-prev::before {
+    color: black;
+    border: 2px solid rgb(255, 255, 255) !important;
+    background: white !important;
+    box-shadow: 0 0 4px 0px black;
+        opacity: 0.99;
+}
+
+
+
+
+#index-sec-1.ecs-page {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../bg/our\ product\ image.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+
+.left-sided-text-div{
+    color: rgb(255,0,0);
+    font-weight: 600;
+    top: -253px;
+    width: 440px;
+    position: absolute;
+    left: 84px;
+}
+
+.ecs-lsd{
+    width: 500px;
+    top: -300px;
+}
+
+
+
+#scs-sec-1 {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(../bg/logistics-background-01.webp) no-repeat center;
+    background-size: cover;
+}
+
+#scs-sec-1 .left-sided-text-div {
+    top: -356px;
+    width: 560px;
+}
+
+.pd-bg .overlay-box {
+    background: transparent;
+}
+
+.pd-bg .overlay-details {
+    left: 94px;
 }

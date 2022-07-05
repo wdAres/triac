@@ -7,7 +7,7 @@
     }
 .nav-link {
     color: black !important;
-    font-weight: 600;
+    font-weight: 800;
 }
 </style>
 
@@ -73,7 +73,7 @@
 
 <section style="" class="py-4"></section>
 
-<?php include 'foot.php' ?>
+ <?php include 'foot2.php' ?>
 
 
 </body>

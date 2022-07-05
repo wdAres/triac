@@ -172,7 +172,7 @@
 
 
 
-<?php include 'foot.php' ?>
+ <?php include 'foot2.php' ?>
 
 
 

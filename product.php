@@ -2,35 +2,36 @@
 
 
 
-    <style>
-        @media (min-width: 576px){ 
-        .container,
-        .container-sm {
+<style>
+    @media (min-width: 576px) {
+
+        .product-page .container,
+        .product-page .container-sm {
             max-width: 100%;
         }
     }
-    </style>
+</style>
 
 
 
-    <!-- SECTION-1 IMPORTED FROM INDEX PAGE-->
-    <section id="index-sec-1" class="header-w-banner d-flex justify-content-center align-items-center text-light">
-        <div class="overlay-container">
-            <div class="overlay-box">
+<!-- SECTION-1 IMPORTED FROM INDEX PAGE-->
+<section id="index-sec-1" class="pd-bg  header-w-banner d-flex justify-content-center align-items-center text-light">
+    <div class="overlay-container">
+        <div class="overlay-box">
 
-            </div>
-            <div class="overlay-details">
-                <div class="mb-3">Products</div>
-
-                Electronics was something I could
-                always fall back on when I needed
-                food on the table.
-
-            </div>
         </div>
+        <div class="overlay-details">
+            <div class="mb-3">Products</div>
 
-    </section>
-    <!-- SECTION-1 -->
+            Electronics was something I could
+            always fall back on when I needed
+            food on the table.
+
+        </div>
+    </div>
+
+</section>
+<!-- SECTION-1 -->
 
 
 <!-- our product start-->
@@ -74,7 +75,7 @@
                             <div class="card">
                                 <img src="main-products/Bridge Rectifier.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Bridge Rectifiers </a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
                             </div>
                         </div>
@@ -82,7 +83,7 @@
                             <div class="card">
                                 <img src="main-products/Current Regulator Diodes.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Current Regulator Diodes</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
                             </div>
                         </div>
@@ -90,7 +91,7 @@
                             <div class="card">
                                 <img src="main-products/Zener Diodes.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Zener Diodes</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
                             </div>
                         </div>
@@ -98,7 +99,7 @@
                             <div class="card">
                                 <img src="main-products/Schottky Diodes.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Schottky Diodes</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
                             </div>
                         </div>
@@ -117,7 +118,7 @@
                             <div class="card">
                                 <img src="main-products/MOSFET.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">MOSFET</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
                             </div>
                         </div>
@@ -125,7 +126,7 @@
                             <div class="card">
                                 <img src="main-products/DPAK MOSFET.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">DPAK MOSFET</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
                             </div>
                         </div>
@@ -133,7 +134,7 @@
                             <div class="card">
                                 <img src="main-products/IGBT Transistors.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">IGBT Transistor</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
                             </div>
                         </div>
@@ -141,7 +142,7 @@
                             <div class="card">
                                 <img src="main-products/IGBT Modules.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">IGBT Modules</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
                             </div>
                         </div>
@@ -153,7 +154,7 @@
                             <div class="card">
                                 <img src="main-products/SCR Modules.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">SCR Modules</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
                             </div>
                         </div>
@@ -169,7 +170,7 @@
                             <div class="card">
                                 <img src="main-products/Microcontroller-MCU.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Microcontroller</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -178,7 +179,7 @@
                             <div class="card">
                                 <img src="main-products/CPLD.webp">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">CPLD</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -187,7 +188,7 @@
                             <div class="card">
                                 <img src="main-products/DSP-Digital Signal Processor (1).jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">DSP</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -196,7 +197,7 @@
                             <div class="card">
                                 <img src="main-products/FPGA (1).jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">FPGA</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -210,7 +211,7 @@
                             <div class="card">
                                 <img src="main-products/Embedded Controllers.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Embedded Controllers</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -229,7 +230,7 @@
                             <div class="card">
                                 <img src="main-products/Amplifier IC (1).webp">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Amplifier</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -238,7 +239,7 @@
                             <div class="card">
                                 <img src="main-products/Power Management ICs (1).jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Power Management ICs</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -247,7 +248,7 @@
                             <div class="card">
                                 <img src="main-products/Clock & Timer ICs (1).jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Clock & Timer ICs</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -256,7 +257,7 @@
                             <div class="card">
                                 <img src="main-products/Optocoupler (1).jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Optocoupler</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -265,7 +266,7 @@
                             <div class="card">
                                 <img src="main-products/Wireless & RF Integrated Circuits (1).jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Wireless Ic</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -274,12 +275,12 @@
                             <div class="card">
                                 <img src="main-products/Memory ICs (1).webp">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Memory ICs</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
                         </div>
-                        
+
                     </div>
 
                 </div>
@@ -317,7 +318,7 @@
                             <div class="card">
                                 <img src="main-products/Aluminum Electrolytic Capacitors.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Aluminum Electrolytic </a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -326,7 +327,7 @@
                             <div class="card">
                                 <img src="main-products/MLCC.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">MLCC</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -335,7 +336,7 @@
                             <div class="card">
                                 <img src="main-products/Film Capacitors.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Film Capacitors</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -344,7 +345,7 @@
                             <div class="card">
                                 <img src="main-products/trimmer-capacitors.png">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Trimmers</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -353,7 +354,7 @@
                             <div class="card">
                                 <img src="main-products/variable-capacitor.png">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Variable Capacitor</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -362,7 +363,7 @@
                             <div class="card">
                                 <img src="main-products/Super Capacitors.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Super Capacitor</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -376,7 +377,7 @@
                             <div class="card">
                                 <img src="main-products/Common Mode Chokes.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Common Mode Chokes</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -385,7 +386,7 @@
                             <div class="card">
                                 <img src="main-products/SMD Inductors.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">SMD Inductors</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -399,7 +400,7 @@
                             <div class="card">
                                 <img src="main-products/SMD Crystals.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">SMD Crystals</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -408,7 +409,7 @@
                             <div class="card">
                                 <img src="main-products/Resonators.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Resonators</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -422,7 +423,7 @@
                             <div class="card">
                                 <img src="main-products/Resistors (1).jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">1206 SMD Resistor</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -431,7 +432,7 @@
                             <div class="card">
                                 <img src="main-products/RF-Resistors.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">RF- Resistor</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -458,7 +459,7 @@
                             <div class="card">
                                 <img src="main-products/Solid State Relays.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Solid State Relay</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -467,7 +468,7 @@
                             <div class="card">
                                 <img src="main-products/Safety Relays.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Safety Relay</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -476,7 +477,7 @@
                             <div class="card">
                                 <img src="main-products/General Purpose Relays.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">General Purpose Relay</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -485,7 +486,7 @@
                             <div class="card">
                                 <img src="main-products/Automotive Relays.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Automotive Relay</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -494,7 +495,7 @@
                             <div class="card">
                                 <img src="main-products/RF Relay.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">RF Relay</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -503,7 +504,7 @@
                             <div class="card">
                                 <img src="main-products/Timers.png">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Timers</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -521,7 +522,7 @@
                             <div class="card">
                                 <img src="main-products/Automotive Connector Plug - Copy.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Automotive Connector Plug</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -530,7 +531,7 @@
                             <div class="card">
                                 <img src="main-products/Automotive Connector Housing - Copy.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Automotive Connector Housing</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -539,7 +540,7 @@
                             <div class="card">
                                 <img src="main-products/Automotive Connectors HSG.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Automotive Connector HSG</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -548,7 +549,7 @@
                             <div class="card">
                                 <img src="main-products/Automotive Connector Wedge Lock.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Automotive Wedge Lock</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -562,7 +563,7 @@
                             <div class="card">
                                 <img src="main-products/Circular DIN Connectors - Copy.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Circular DIN Connectors</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -571,7 +572,7 @@
                             <div class="card">
                                 <img src="main-products/Circular Metric Connectors - Copy.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Circular Metric Connectors</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -580,7 +581,7 @@
                             <div class="card">
                                 <img src="main-products/Circular MIL Spec Connectors - Copy.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Circular MIL Spec Connectors</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -589,7 +590,7 @@
                             <div class="card">
                                 <img src="main-products/Circular Push Pull Connectors.png">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Circular Push Pull Connectors</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -603,7 +604,7 @@
                             <div class="card">
                                 <img src="main-products/D-Sub Standard Connectors - Copy.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">D-Sub Standard Connectors</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -612,7 +613,7 @@
                             <div class="card">
                                 <img src="main-products/D-Sub Dual Port Connectors - Copy.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">D-Sub Dual Port Connectors</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -626,7 +627,7 @@
                             <div class="card">
                                 <img src="main-products/Barrier Terminal Blocks - Copy.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Barrier Terminal Blocks</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -635,7 +636,7 @@
                             <div class="card">
                                 <img src="main-products/DIN Rail Terminal Block - Copy.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">DIN Rail Terminal Block</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -644,7 +645,7 @@
                             <div class="card">
                                 <img src="main-products/Terminal Block Interface Modules.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Terminal Block Interface Modules</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -653,7 +654,7 @@
                             <div class="card">
                                 <img src="main-products/Pluggable Terminal Blocks.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">Pluggable Terminal Blocks</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -667,7 +668,7 @@
                             <div class="card">
                                 <img src="main-products/AC Power Entry Modules - Copy.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">AC Power Entry Modules</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -676,7 +677,7 @@
                             <div class="card">
                                 <img src="main-products/DC Power Connectors - Copy.jpg">
                                 <h5 class="fw-bold"><a href="#!" class="text-dark text-decoration-none">DC Power Connectors</a></h5><button type="button" class="btn mb-3 mt-2 mx-auto pd--btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact  Us
+                                    Contact Us
                                 </button>
 
                             </div>
@@ -753,7 +754,7 @@
 <!-- Modal -->
 
 
-    <?php include 'foot.php' ?>
+<?php include 'foot2.php' ?>
 
 </body>
 

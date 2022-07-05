@@ -2,19 +2,27 @@
 
 
 <!-- SECTION-1 IMPORT FROM ABOUT PAGE-->
-<section id="quality-sec-1" class="container-fluid mx-0 px-0 d-flex flex-column flex-md-row align-items-center">
-    <div class="d-flex flex-column  p-4 about-sec-1-left wid align-items-center align-items-md-start justify-content-center h-100">
+<section id="quality-sec-1" class="container-fluid mx-0 px-0 d-flex align-items-end">
+    <!-- <div class="d-flex flex-column  p-4 about-sec-1-left wid align-items-center align-items-md-start justify-content-center h-100">
         <h1  class="mb-4 ps-md-5 fw-bold all-page-heading">Quality</h1>
         <p class="w-75 ps-md-5" style="text-align: justify;">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores error adipisci, sequi modi voluptates
             eveniet sapiente magni saepe veritatise omnis totam rem.
         </p>
-    </div>
+    </div> -->
     <!-- <div class="d-flex justify-content-center align-items-center wid p-4 h-100">
             <div >
             <img src="../background/about-us.jpg" width="100%" alt="">
             </div>
         </div> -->
+        <div class="left-sided-text position-relative">
+        <div style="" class="fs-1 mb-5 pb-5 px-4 left-sided-text-div ecs-lsd">
+            Quality
+            <div class="fs-5 fw-semibold mt-3 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet odio sint ea modi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, iure.
+
+            </div>
+        </div>
+    </div>
 </section>
 <!-- SECTION-1 -->
 
@@ -308,7 +316,7 @@
 
 
 
-<?php include 'foot.php' ?>>
+<?php include 'foot2.php' ?>
 
 
 </body>

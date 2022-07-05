@@ -27,13 +27,13 @@
     /* height: 90vh; */
 }
 
-#index-sec-4 {
+/* #index-sec-4 {
     height: 122vh;
 }
 
 #index-sec-5 {
     height: 139vh;
-}
+} */
 .all-page-heading{
     font-size:1.4em 
 }
@@ -50,4 +50,13 @@
     .quality-img-box {
         font-size: 28px;
     }
+
+    .pd-bg .overlay-details {
+        left: 68px;
+    }
+}
+
+
+#scs-sec-1 .left-sided-text-div {
+    top: -375px;
 }

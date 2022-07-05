@@ -118,7 +118,7 @@ font-weight: 600;
         </div>
     </div>
 
-    <?php include 'foot.php' ?>
+     <?php include 'foot2.php' ?>
 
     </body>
 

@@ -74,3 +74,19 @@ section.product-page .tab-content {
     text-align: center !important;
     width: 100% !important;
 }
+
+.left-sided-text{
+    position: relative!important;
+    width: 100%;
+}
+
+.left-sided-text-div {
+    top: -253px;
+    width: 100%;
+    left: 0px;
+}
+
+.ecs-lsd {
+    width: 100%;
+    top: -300px;
+}
